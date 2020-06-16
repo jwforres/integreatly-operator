@@ -442,11 +442,11 @@ spec:
   relatedImages:
   - image: registry.redhat.io/codeready-workspaces/crw-2-rhel8-operator@sha256:d7f3d860a3ce45482463520ac2190f5ff908629054ba51d23486c41339881287
     name: crw-2-rhel8-operator
-  - image: registry.redhat.io/codeready-workspaces/server-rhel8@sha256:edf89d2efb4f1c03c8a6a7ae69cb4fbcf1167a13cc323a6804c0210c5ea55636
+  - image: registry.redhat.io/codeready-workspaces/server-rhel8@sha256:652d6a8f7e57ccb4b186256c07046d7c4567a5eb46bf505eae5af1ea3e66c2f8
     name: server-rhel8
-  - image: registry.redhat.io/codeready-workspaces/pluginregistry-rhel8@sha256:4ceba00266684a6ac6b4d1768a24f96bfd04c7796cdc73e74fed5c93a8988dd7
+  - image: registry.redhat.io/codeready-workspaces/pluginregistry-rhel8@sha256:2215bcbef772874dc347a5aed837fd23efb0cffaaeb1d86c9d490811afa9247a
     name: codeready-workspaces-pluginregistry-rhel8
-  - image: registry.redhat.io/codeready-workspaces/devfileregistry-rhel8@sha256:9fd664ba31d073047f5e8ede1cade3435a1ea48093a16e1073db0fa281c29779
+  - image: registry.redhat.io/codeready-workspaces/devfileregistry-rhel8@sha256:02a26dec331fa2f5db682d4c7a40450d30b261a6d25d6286cf0c250afa5f49ec
     name: codeready-workspaces-devfileregistry-rhel8
   - image: registry.access.redhat.com/ubi8-minimal@sha256:a35e01b96fceb4e0c9c037c9c62e2c16122d4da07cc7508fb62f301d6e2dcfc5
     name: ubi8-minimal
@@ -464,7 +464,7 @@ spec:
     name: machineexec-rhel8
   - image: registry.redhat.io/codeready-workspaces/plugin-java11-rhel8@sha256:433b566a2dfac2aadcc4171a94351f8dee2839f9c4c9df84b2e8ae073f3294cf
     name: plugin-java11-rhel8
-  - image: registry.redhat.io/codeready-workspaces/plugin-java8-rhel8@sha256:18ffa957ad91cfb7459f7287301c1ec02e708a4972c42b3f86aeabcf9fad11aa
+  - image: registry.redhat.io/codeready-workspaces/plugin-java8-rhel8@sha256:21fe1ec933ab84bee4933e23727775c5d5f3f0979c8d3c4c363db05fa57b5ffb
     name: plugin-java8-rhel8
   - image: registry.redhat.io/codeready-workspaces/plugin-kubernetes-rhel8@sha256:697fccf7b9d9a04775060df76461303c819a30ffea0149b5a0f1d2116fdf3263
     name: plugin-kubernetes-rhel8
