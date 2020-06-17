@@ -444,9 +444,9 @@ spec:
     name: crw-2-rhel8-operator
   - image: registry.redhat.io/codeready-workspaces/server-rhel8@sha256:652d6a8f7e57ccb4b186256c07046d7c4567a5eb46bf505eae5af1ea3e66c2f8
     name: server-rhel8
-  - image: registry.redhat.io/codeready-workspaces/pluginregistry-rhel8@sha256:2215bcbef772874dc347a5aed837fd23efb0cffaaeb1d86c9d490811afa9247a
+  - image: registry.redhat.io/codeready-workspaces/pluginregistry-rhel8@sha256:79a9f601e2cfb5f9e5eb097eb464c3362f0efa36d460cb40d1f80d9d0925486f
     name: codeready-workspaces-pluginregistry-rhel8
-  - image: registry.redhat.io/codeready-workspaces/devfileregistry-rhel8@sha256:02a26dec331fa2f5db682d4c7a40450d30b261a6d25d6286cf0c250afa5f49ec
+  - image: registry.redhat.io/codeready-workspaces/devfileregistry-rhel8@sha256:43a13082fc34d42c37410191fe2ceec636f0ad30da4930f992deb2f790631e86
     name: codeready-workspaces-devfileregistry-rhel8
   - image: registry.access.redhat.com/ubi8-minimal@sha256:a35e01b96fceb4e0c9c037c9c62e2c16122d4da07cc7508fb62f301d6e2dcfc5
     name: ubi8-minimal
@@ -480,14 +480,10 @@ spec:
     name: stacks-java-rhel8
   - image: registry.redhat.io/codeready-workspaces/stacks-php-rhel8@sha256:85ced3969e7a865245155793e20ee02623ea903c54a84bc3e4f523a937d58f2c
     name: stacks-php-rhel8
-  - image: registry.redhat.io/codeready-workspaces/theia-endpoint-rhel8@sha256:cd6723d74826f9cfabb1abd98f47db91fa5df561c7c7e379b2f979b2e0f919d8
+  - image: registry.redhat.io/codeready-workspaces/theia-endpoint-rhel8@sha256:072a0653b60a16776196dcd4f1c8d9c4f74cbc952e43a73010ea95971b7a9e58
     name: theia-endpoint-rhel8
-  - image: registry.redhat.io/codeready-workspaces/theia-rhel8@sha256:d7c9674e9e764c39fe5b7eca00dce511cd0db88bb89915699300efdc97114b4e
+  - image: registry.redhat.io/codeready-workspaces/theia-rhel8@sha256:c047a47ebce6fe0abde4fe1eb144bf885b0255cf668882e80dce0e9b38ec3539
     name: theia-rhel8
-  - image: registry.redhat.io/ubi8/openjdk-11@sha256:a9b1a21661411b692cb621b5f1dc55e8ac6324e5f342c3fa80e85c315975373b
-    name: openjdk-11
-  - image: registry.redhat.io/ubi8/openjdk-8@sha256:573fdab1e0d40fdb5b786c13c50be542258fe65fc22904d3ab1588389330acc7
-    name: openjdk-8
   - image: registry.redhat.io/jboss-eap-7/eap73-openjdk8-openshift-rhel7@sha256:f355c9673c09f98c223e73c64ab424dc9f5f756fdeb74a4d33f387411fa27738
     name: eap73-openjdk8-openshift-rhel7
   - image: registry.redhat.io/rhscl/mongodb-36-rhel7@sha256:9f799d356d7d2e442bde9d401b720600fd9059a3d8eefea6f3b2ffa721c0dc73
