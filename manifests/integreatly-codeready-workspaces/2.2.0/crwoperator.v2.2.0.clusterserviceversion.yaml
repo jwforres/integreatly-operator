@@ -444,9 +444,9 @@ spec:
     name: crw-2-rhel8-operator
   - image: registry.redhat.io/codeready-workspaces/server-rhel8@sha256:652d6a8f7e57ccb4b186256c07046d7c4567a5eb46bf505eae5af1ea3e66c2f8
     name: server-rhel8
-  - image: registry.redhat.io/codeready-workspaces/pluginregistry-rhel8@sha256:79a9f601e2cfb5f9e5eb097eb464c3362f0efa36d460cb40d1f80d9d0925486f
+  - image: registry.redhat.io/codeready-workspaces/pluginregistry-rhel8@sha256:4fd177810ddc3eba7525c9bd626d6295c70afe22d50fb41e6f3c4aa6b87d74f1
     name: codeready-workspaces-pluginregistry-rhel8
-  - image: registry.redhat.io/codeready-workspaces/devfileregistry-rhel8@sha256:43a13082fc34d42c37410191fe2ceec636f0ad30da4930f992deb2f790631e86
+  - image: registry.redhat.io/codeready-workspaces/devfileregistry-rhel8@sha256:d4695fd484ef493ae7ccfec6af1e83e1c18e0ddaa656e4ef8453c6eb076393c7
     name: codeready-workspaces-devfileregistry-rhel8
   - image: registry.access.redhat.com/ubi8-minimal@sha256:a35e01b96fceb4e0c9c037c9c62e2c16122d4da07cc7508fb62f301d6e2dcfc5
     name: ubi8-minimal
@@ -480,9 +480,9 @@ spec:
     name: stacks-java-rhel8
   - image: registry.redhat.io/codeready-workspaces/stacks-php-rhel8@sha256:85ced3969e7a865245155793e20ee02623ea903c54a84bc3e4f523a937d58f2c
     name: stacks-php-rhel8
-  - image: registry.redhat.io/codeready-workspaces/theia-endpoint-rhel8@sha256:072a0653b60a16776196dcd4f1c8d9c4f74cbc952e43a73010ea95971b7a9e58
+  - image: registry.redhat.io/codeready-workspaces/theia-endpoint-rhel8@sha256:7dcba7022441504c04ce7050fc2261dc5af3754cd900d4a0d3008e76f6d32582
     name: theia-endpoint-rhel8
-  - image: registry.redhat.io/codeready-workspaces/theia-rhel8@sha256:c047a47ebce6fe0abde4fe1eb144bf885b0255cf668882e80dce0e9b38ec3539
+  - image: registry.redhat.io/codeready-workspaces/theia-rhel8@sha256:5516b39b7ed795855532d9d33432a04266bcac9ab24c504d514bd3c5b7fcdd31
     name: theia-rhel8
   - image: registry.redhat.io/jboss-eap-7/eap73-openjdk8-openshift-rhel7@sha256:f355c9673c09f98c223e73c64ab424dc9f5f756fdeb74a4d33f387411fa27738
     name: eap73-openjdk8-openshift-rhel7
