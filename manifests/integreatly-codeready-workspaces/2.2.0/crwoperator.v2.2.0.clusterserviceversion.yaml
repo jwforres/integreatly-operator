@@ -442,11 +442,11 @@ spec:
   relatedImages:
   - image: registry.redhat.io/codeready-workspaces/crw-2-rhel8-operator@sha256:d7f3d860a3ce45482463520ac2190f5ff908629054ba51d23486c41339881287
     name: crw-2-rhel8-operator
-  - image: registry.redhat.io/codeready-workspaces/server-rhel8@sha256:652d6a8f7e57ccb4b186256c07046d7c4567a5eb46bf505eae5af1ea3e66c2f8
+  - image: registry.redhat.io/codeready-workspaces/server-rhel8@sha256:d8fbbb9b2a3fa228c756a721a284fe85c46a228151765b2de8277befa7e126e9
     name: server-rhel8
-  - image: registry.redhat.io/codeready-workspaces/pluginregistry-rhel8@sha256:61453e1176720b5d61c0194b553f0f0a6307bb6b0a9c771162271568d80f528d
+  - image: registry.redhat.io/codeready-workspaces/pluginregistry-rhel8@sha256:0876808d80438aa99b96d0a790e299d91ac7d5d7cc0f00da06e1f09aee203a5f
     name: codeready-workspaces-pluginregistry-rhel8
-  - image: registry.redhat.io/codeready-workspaces/devfileregistry-rhel8@sha256:d0d0b9e7b0c1be7789de9b0ed1dba6f7c3341a697eaea7f625f9e5d600424a98
+  - image: registry.redhat.io/codeready-workspaces/devfileregistry-rhel8@sha256:80ce28982f42f663e2dd98ad83b88d36c140f1c5aa53b32f30d3eead6d1dcf07
     name: codeready-workspaces-devfileregistry-rhel8
   - image: registry.access.redhat.com/ubi8-minimal@sha256:a35e01b96fceb4e0c9c037c9c62e2c16122d4da07cc7508fb62f301d6e2dcfc5
     name: ubi8-minimal
