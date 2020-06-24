@@ -444,15 +444,15 @@ spec:
     name: crw-2-rhel8-operator
   - image: registry.redhat.io/codeready-workspaces/server-rhel8@sha256:868375fdf05487437fd3ff85fb77964839b3b79093ba8840233512cc9003014e
     name: server-rhel8
-  - image: registry.redhat.io/codeready-workspaces/pluginregistry-rhel8@sha256:63ed45245ed031e238333ee8dec2d838440c2425c6cd148b43d4ffb124681ba6
+  - image: registry.redhat.io/codeready-workspaces/pluginregistry-rhel8@sha256:9d4f3c9cae6e8656fa1a9e4b635ea961c8c4978649b9422a2572465811d50e90
     name: codeready-workspaces-pluginregistry-rhel8
-  - image: registry.redhat.io/codeready-workspaces/devfileregistry-rhel8@sha256:bf5af0ed141436c2abb966c0b08d5b314b8c49bb4c4ee2297c48136965c8fb4b
+  - image: registry.redhat.io/codeready-workspaces/devfileregistry-rhel8@sha256:94174a29ed78d5a103ff34a049c4e1e184f18fa442cbcdc57baea9b7c6d87b3b
     name: codeready-workspaces-devfileregistry-rhel8
   - image: registry.access.redhat.com/ubi8-minimal@sha256:d5fd7063f568804e3e0500badd1c6e5134d4f0b24b748d58dfbf43d95b896daf
     name: ubi8-minimal
   - image: registry.redhat.io/rhel8/postgresql-96@sha256:ad64ed5f3683b84e1d289a0f3fd9e9a31bc3a38c8f32063ce3958aaee7e78b97
     name: postgresql-96
-  - image: registry.redhat.io/rh-sso-7/sso74-openshift-rhel8@sha256:f67d5d8f870969a54c61bab5f6bfda6c9c166ae3f232c9ec07c40773cb87174e
+  - image: registry.redhat.io/rh-sso-7/sso74-openshift-rhel8@sha256:bfb3972b1696fd22644588477be01649fe6e4e3fe8f62967d04e9459fd8f1b0f
     name: sso74-openshift-rhel8
   - image: registry.redhat.io/codeready-workspaces/pluginbroker-metadata-rhel8@sha256:f383980f397a25b2044dfef1b1d58ee7c4675183f752b862c56478a5c5aeb754
     name: pluginbroker-metadata-rhel8
