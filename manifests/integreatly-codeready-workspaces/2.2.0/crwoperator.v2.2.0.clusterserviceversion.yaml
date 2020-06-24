@@ -444,9 +444,9 @@ spec:
     name: crw-2-rhel8-operator
   - image: registry.redhat.io/codeready-workspaces/server-rhel8@sha256:868375fdf05487437fd3ff85fb77964839b3b79093ba8840233512cc9003014e
     name: server-rhel8
-  - image: registry.redhat.io/codeready-workspaces/pluginregistry-rhel8@sha256:7a71b3efb50b42a4405e2e3a470cc19de23733c5272ce83c11483b0a79a275f0
+  - image: registry.redhat.io/codeready-workspaces/pluginregistry-rhel8@sha256:63ed45245ed031e238333ee8dec2d838440c2425c6cd148b43d4ffb124681ba6
     name: codeready-workspaces-pluginregistry-rhel8
-  - image: registry.redhat.io/codeready-workspaces/devfileregistry-rhel8@sha256:99925aa3555d9e361f04097d0ea79cc0f0686c527bb632190691e1eeec2eca5d
+  - image: registry.redhat.io/codeready-workspaces/devfileregistry-rhel8@sha256:bf5af0ed141436c2abb966c0b08d5b314b8c49bb4c4ee2297c48136965c8fb4b
     name: codeready-workspaces-devfileregistry-rhel8
   - image: registry.access.redhat.com/ubi8-minimal@sha256:d5fd7063f568804e3e0500badd1c6e5134d4f0b24b748d58dfbf43d95b896daf
     name: ubi8-minimal
