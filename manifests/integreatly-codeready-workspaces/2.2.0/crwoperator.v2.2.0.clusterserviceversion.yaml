@@ -294,15 +294,15 @@ spec:
                 - name: IMAGE_default_che_server
                   value: quay.io/integreatly/delorean:codeready-workspaces-server-rhel8_3b21569f219e84019d0a8bf6c88f6cf7d710aee657bf14a686a3b15721c9764a
                 - name: IMAGE_default_plugin_registry
-                  value: quay.io/integreatly/delorean:codeready-workspaces-pluginregistry-rhel8_c520dcdc83ab21109d211a982db2cefd2634a960d00fd741ccf826047c4d1a03
+                  value: quay.io/integreatly/delorean:codeready-workspaces-pluginregistry-rhel8_6d625a01ef760d2cd6c99d9dfa8732bb366d4bf14a3b4d0aa7bfd9512b510126
                 - name: IMAGE_default_devfile_registry
-                  value: quay.io/integreatly/delorean:codeready-workspaces-devfileregistry-rhel8_149c087b4f3368da92a205aa30a8a12cf71dd820fd9f506b6bbb1e9492687a93
+                  value: quay.io/integreatly/delorean:codeready-workspaces-devfileregistry-rhel8_ff2a1378473411d76b4a81eb1e90b851a66c392f54b63050ca72b5e18a6e78ab
                 - name: IMAGE_default_pvc_jobs
                   value: registry.access.redhat.com/ubi8-minimal@sha256:d5fd7063f568804e3e0500badd1c6e5134d4f0b24b748d58dfbf43d95b896daf
                 - name: IMAGE_default_postgres
                   value: quay.io/integreatly/delorean:rhel8-postgresql-96_ad64ed5f3683b84e1d289a0f3fd9e9a31bc3a38c8f32063ce3958aaee7e78b97
                 - name: IMAGE_default_keycloak
-                  value: quay.io/integreatly/delorean:rh-sso-7-sso74-openshift-rhel8_bfb3972b1696fd22644588477be01649fe6e4e3fe8f62967d04e9459fd8f1b0f
+                  value: quay.io/integreatly/delorean:rh-sso-7-sso74-openshift-rhel8_36437d88558206f2e0ca99f2e8617fcf917112bef4b4d1732a35bd942edc3a22
                 - name: IMAGE_default_che_workspace_plugin_broker_metadata
                   value: quay.io/integreatly/delorean:codeready-workspaces-pluginbroker-metadata-rhel8_f383980f397a25b2044dfef1b1d58ee7c4675183f752b862c56478a5c5aeb754
                 - name: IMAGE_default_che_workspace_plugin_broker_artifacts
@@ -444,15 +444,15 @@ spec:
     name: crw-2-rhel8-operator
   - image: registry.redhat.io/codeready-workspaces/server-rhel8@sha256:3b21569f219e84019d0a8bf6c88f6cf7d710aee657bf14a686a3b15721c9764a
     name: server-rhel8
-  - image: registry.redhat.io/codeready-workspaces/pluginregistry-rhel8@sha256:c520dcdc83ab21109d211a982db2cefd2634a960d00fd741ccf826047c4d1a03
+  - image: registry.redhat.io/codeready-workspaces/pluginregistry-rhel8@sha256:6d625a01ef760d2cd6c99d9dfa8732bb366d4bf14a3b4d0aa7bfd9512b510126
     name: codeready-workspaces-pluginregistry-rhel8
-  - image: registry.redhat.io/codeready-workspaces/devfileregistry-rhel8@sha256:149c087b4f3368da92a205aa30a8a12cf71dd820fd9f506b6bbb1e9492687a93
+  - image: registry.redhat.io/codeready-workspaces/devfileregistry-rhel8@sha256:ff2a1378473411d76b4a81eb1e90b851a66c392f54b63050ca72b5e18a6e78ab
     name: codeready-workspaces-devfileregistry-rhel8
   - image: registry.access.redhat.com/ubi8-minimal@sha256:d5fd7063f568804e3e0500badd1c6e5134d4f0b24b748d58dfbf43d95b896daf
     name: ubi8-minimal
   - image: registry.redhat.io/rhel8/postgresql-96@sha256:ad64ed5f3683b84e1d289a0f3fd9e9a31bc3a38c8f32063ce3958aaee7e78b97
     name: postgresql-96
-  - image: registry.redhat.io/rh-sso-7/sso74-openshift-rhel8@sha256:bfb3972b1696fd22644588477be01649fe6e4e3fe8f62967d04e9459fd8f1b0f
+  - image: registry.redhat.io/rh-sso-7/sso74-openshift-rhel8@sha256:36437d88558206f2e0ca99f2e8617fcf917112bef4b4d1732a35bd942edc3a22
     name: sso74-openshift-rhel8
   - image: registry.redhat.io/codeready-workspaces/pluginbroker-metadata-rhel8@sha256:f383980f397a25b2044dfef1b1d58ee7c4675183f752b862c56478a5c5aeb754
     name: pluginbroker-metadata-rhel8
@@ -480,9 +480,9 @@ spec:
     name: stacks-java-rhel8
   - image: registry.redhat.io/codeready-workspaces/stacks-php-rhel8@sha256:2f6b1f177a3d4163b28978dbc5bd9de5ce4614452ba67529d12a55e4ec7c56c5
     name: stacks-php-rhel8
-  - image: registry.redhat.io/codeready-workspaces/theia-endpoint-rhel8@sha256:79d86b6493ef2262505682fbceccf0b6c6df336fe25c00109d203cfd69c53c90
+  - image: registry.redhat.io/codeready-workspaces/theia-endpoint-rhel8@sha256:38ef6428c882032f3109d35f9b9e235cffa5e5e4febf575da1eb1392a831e276
     name: theia-endpoint-rhel8
-  - image: registry.redhat.io/codeready-workspaces/theia-rhel8@sha256:dc034d9ff2a5ddc28bbd57824bf5e24de95a68054d2e92518ee76f8e9e0ed650
+  - image: registry.redhat.io/codeready-workspaces/theia-rhel8@sha256:b179f261278812cb565ee18b7249d04283aa30413f161ad12839df0b4f3babc3
     name: theia-rhel8
   - image: registry.redhat.io/jboss-eap-7/eap73-openjdk8-openshift-rhel7@sha256:f355c9673c09f98c223e73c64ab424dc9f5f756fdeb74a4d33f387411fa27738
     name: eap73-openjdk8-openshift-rhel7
