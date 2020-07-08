@@ -46,7 +46,7 @@ metadata:
     capabilities: Seamless Upgrades
     categories: Developer Tools, OpenShift Optional
     certified: "true"
-    containerImage: quay.io/integreatly/delorean:codeready-workspaces-crw-2-rhel8-operator_56259f1d0159144dde4765c56209d799b2352054e2423a05d211f4743362edb9
+    containerImage: registry.redhat.io/codeready-workspaces/crw-2-rhel8-operator@sha256:56259f1d0159144dde4765c56209d799b2352054e2423a05d211f4743362edb9
     createdAt: "2020-01-20T11:59:59+00:00"
     description: A Kube-native development solution that delivers portable and collaborative
       developer workspaces in OpenShift.
@@ -292,23 +292,23 @@ spec:
                 - name: CHE_VERSION
                   value: "2.2"
                 - name: IMAGE_default_che_server
-                  value: quay.io/integreatly/delorean:codeready-workspaces-server-rhel8_3b21569f219e84019d0a8bf6c88f6cf7d710aee657bf14a686a3b15721c9764a
+                  value: registry.redhat.io/codeready-workspaces/server-rhel8@sha256:3b21569f219e84019d0a8bf6c88f6cf7d710aee657bf14a686a3b15721c9764a
                 - name: IMAGE_default_plugin_registry
-                  value: quay.io/integreatly/delorean:codeready-workspaces-pluginregistry-rhel8_03ffcb731b425d29ed4067a689d6a883ed798997a23bbfc755e892c4f5154d96
+                  value: registry.redhat.io/codeready-workspaces/pluginregistry-rhel8@sha256:03ffcb731b425d29ed4067a689d6a883ed798997a23bbfc755e892c4f5154d96
                 - name: IMAGE_default_devfile_registry
-                  value: quay.io/integreatly/delorean:codeready-workspaces-devfileregistry-rhel8_6bbf5ac59f9d751af5b06625f88e77753b6c5c21d9edf3c01ada86680d1472ae
+                  value: registry.redhat.io/codeready-workspaces/devfileregistry-rhel8@sha256:6bbf5ac59f9d751af5b06625f88e77753b6c5c21d9edf3c01ada86680d1472ae
                 - name: IMAGE_default_pvc_jobs
                   value: registry.access.redhat.com/ubi8-minimal@sha256:d5fd7063f568804e3e0500badd1c6e5134d4f0b24b748d58dfbf43d95b896daf
                 - name: IMAGE_default_postgres
-                  value: quay.io/integreatly/delorean:rhel8-postgresql-96_ad64ed5f3683b84e1d289a0f3fd9e9a31bc3a38c8f32063ce3958aaee7e78b97
+                  value: registry.redhat.io/rhel8/postgresql-96@sha256:ad64ed5f3683b84e1d289a0f3fd9e9a31bc3a38c8f32063ce3958aaee7e78b97
                 - name: IMAGE_default_keycloak
-                  value: quay.io/integreatly/delorean:rh-sso-7-sso74-openshift-rhel8_36437d88558206f2e0ca99f2e8617fcf917112bef4b4d1732a35bd942edc3a22
+                  value: registry.redhat.io/rh-sso-7/sso74-openshift-rhel8@sha256:36437d88558206f2e0ca99f2e8617fcf917112bef4b4d1732a35bd942edc3a22
                 - name: IMAGE_default_che_workspace_plugin_broker_metadata
-                  value: quay.io/integreatly/delorean:codeready-workspaces-pluginbroker-metadata-rhel8_f383980f397a25b2044dfef1b1d58ee7c4675183f752b862c56478a5c5aeb754
+                  value: registry.redhat.io/codeready-workspaces/pluginbroker-metadata-rhel8@sha256:f383980f397a25b2044dfef1b1d58ee7c4675183f752b862c56478a5c5aeb754
                 - name: IMAGE_default_che_workspace_plugin_broker_artifacts
-                  value: quay.io/integreatly/delorean:codeready-workspaces-pluginbroker-artifacts-rhel8_c5197d4c43d3a99492d7bfa1ea97d5a1dc515fcf407a6e50d94115ba171c994f
+                  value: registry.redhat.io/codeready-workspaces/pluginbroker-artifacts-rhel8@sha256:c5197d4c43d3a99492d7bfa1ea97d5a1dc515fcf407a6e50d94115ba171c994f
                 - name: IMAGE_default_che_server_secure_exposer_jwt_proxy_image
-                  value: quay.io/integreatly/delorean:codeready-workspaces-jwtproxy-rhel8_f65afa92c6067601c5e66408c4c5503c2d16d8bcb15e3e985fd9d9b7aee1c3d2
+                  value: registry.redhat.io/codeready-workspaces/jwtproxy-rhel8@sha256:f65afa92c6067601c5e66408c4c5503c2d16d8bcb15e3e985fd9d9b7aee1c3d2
                 - name: CHE_FLAVOR
                   value: codeready
                 - name: CONSOLE_LINK_NAME
@@ -325,7 +325,7 @@ spec:
                   value: che-identity-postgres-secret
                 - name: CHE_POSTGRES_SECRET
                   value: che-postgres-secret
-                image: quay.io/integreatly/delorean:codeready-workspaces-crw-2-rhel8-operator_56259f1d0159144dde4765c56209d799b2352054e2423a05d211f4743362edb9
+                image: registry.redhat.io/codeready-workspaces/crw-2-rhel8-operator@sha256:56259f1d0159144dde4765c56209d799b2352054e2423a05d211f4743362edb9
                 imagePullPolicy: Always
                 name: codeready-operator
                 ports:
